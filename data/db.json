@@ -1,0 +1,88 @@
+{
+  "users": [
+    {
+      "username": "namrata",
+      "password": "1234",
+      "email": "namrtanaik13@gmail.com",
+      "id": 1
+    },
+    {
+      "username": "Nikita",
+      "email": "nikita@gmail.com",
+      "password": "12345",
+      "id": 2
+    },
+    {
+      "email": "namrtanaik13@gmail.com",
+      "username": "Namrata",
+      "password": "Nammu@123",
+      "confirmpassword": "Nammu@123",
+      "mobilenumber": "9380764839",
+      "id": 3
+    },
+    {
+      "email": "namrtanaik13@gmail.com",
+      "username": "Namrata",
+      "password": "Nammu@123",
+      "confirmpassword": "Nammu@123",
+      "mobilenumber": "9380764839",
+      "id": 4
+    },
+    {
+      "email": "namrtanaik13@gmail.com",
+      "username": "Namrata",
+      "password": "Nammu@123",
+      "confirmpassword": "Nammu@123",
+      "mobilenumber": "9380764839",
+      "id": 5
+    },
+    {
+      "email": "nammu@gmail.com",
+      "username": "namrata",
+      "password": "Nammu@123",
+      "confirmpassword": "Nammu@123",
+      "mobilenumber": "9380488676",
+      "id": 6
+    },
+    {
+      "email": "nammu@gmail.com",
+      "username": "namrata",
+      "password": "Nammu@123",
+      "confirmpassword": "Nammu@123",
+      "mobilenumber": "9380488676",
+      "id": 7
+    },
+    {
+      "email": "namrtanaik13@gmail.com",
+      "username": "namrata",
+      "password": "Nammu@123",
+      "confirmpassword": "Nammu@123",
+      "mobilenumber": "8234567890",
+      "id": 8
+    },
+    {
+      "email": "nikita@gmail.com",
+      "username": "nikita",
+      "password": "Nikita@12",
+      "confirmpassword": "Nikita@12",
+      "mobilenumber": "9945982413",
+      "id": 9
+    },
+    {
+      "email": "namrtanaik13@gmail.com",
+      "username": "namrata",
+      "password": "Nams@1234",
+      "confirmpassword": "Nams@1234",
+      "mobilenumber": "7777777777",
+      "id": 10
+    },
+    {
+      "email": "jayaths@gmail.com",
+      "username": "Jayanth",
+      "password": "Jayanths@12",
+      "confirmpassword": "Jayanths@12",
+      "mobilenumber": "7349278134",
+      "id": 11
+    }
+  ]
+}

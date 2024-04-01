@@ -1,0 +1,24 @@
+.login{
+    margin-right: 50px;
+}
+
+.sign{
+    margin-right: 30px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-nav .nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.icon-link {
+    display: flex;
+    align-items: center;
+    margin-left: 15px; /* Adjust spacing as needed */
+}

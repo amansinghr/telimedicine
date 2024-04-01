@@ -1,0 +1,24 @@
+<div id="loginPage">
+  <div id="loginFormContainer">
+    <h1 id="formHeading">Login</h1>
+    <form [formGroup]="Userdetails" (ngSubmit)="onsubmit()" id="loginform">
+      <div class="mb-3">
+        <label for="email" class="form-label">Enter your Email</label>
+        <input type="email" class="form-control" id="email" formControlName="email" required>
+        <div class="invalid-feedback">
+          Enter valid email id.
+        </div>
+      </div>
+      <div class="mb-3">
+        <label for="password" class="form-label">Enter your Password</label>
+        <input type="password" class="form-control" id="password" formControlName="password" required>
+        <div class="invalid-feedback">
+          Password is required.
+        </div>
+      </div>
+      <button type="submit" [disabled]="!Userdetails.valid" class="btn btn-primary btn-block">LOGIN</button>
+      <p> If New User<a routerLink="/register">Click here</a></p>
+
+    </form>
+  </div>
+</div>

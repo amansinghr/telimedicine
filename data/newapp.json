@@ -1,0 +1,52 @@
+{
+  "newAppointment": [
+    {
+      "name": "NAMRATA ISHWAR NAIK",
+      "mobileNo": "9380764839",
+      "city": "Uttara Kannada",
+      "age": "23",
+      "isFirstTime": true,
+      "gender": "Female",
+      "appointmentDate": "2024-03-31",
+      "appointmentTime": "7",
+      "narration": "abc",
+      "id": 1
+    },
+    {
+      "name": "Jayanth S",
+      "mobileNo": "09380764839",
+      "city": "Dandeli",
+      "age": "23",
+      "isFirstTime": true,
+      "gender": "Male",
+      "appointmentDate": "2024-04-01",
+      "appointmentTime": "7",
+      "narration": "Phisiyotherapist",
+      "id": 2
+    },
+    {
+      "name": "NAMRATA ISHWAR NAIK",
+      "mobileNo": "9380764839",
+      "city": "DANDELI",
+      "age": "23",
+      "isFirstTime": true,
+      "gender": "Male",
+      "appointmentDate": "2024-04-01",
+      "appointmentTime": "7",
+      "narration": "abc",
+      "id": 3
+    },
+    {
+      "name": "NAMRATA ISHWAR NAIK",
+      "mobileNo": "9380764839",
+      "city": "Uttara Kannada",
+      "age": "23",
+      "isFirstTime": false,
+      "gender": "Female",
+      "appointmentDate": "2024-04-01",
+      "appointmentTime": "7.45",
+      "narration": "",
+      "id": 4
+    }
+  ]
+}

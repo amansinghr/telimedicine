@@ -1,0 +1,48 @@
+<div class="container">
+  <div id="registerForm" class="container-fluid">
+    <div class="row justify-content-center align-items-center vh-100">
+        <div class="col-md-5">
+            <h1 id="welcomeLine" class="text-center">Sign-up Page</h1>
+            <form [formGroup]="Registeringdetails" (ngSubmit)="onsubmit()">
+                <div class="form-group">
+                    <label for="email">Enter your Email</label>
+                    <input type="email" class="form-control" id="email" formControlName="email">
+                    <div *ngIf="emailvalue?.errors?.['invalidemail']" class="text-danger">Enter valid email id.</div>
+                </div>
+                <div class="form-group">
+                    <label for="username">Enter your Name</label>
+                    <input type="text" class="form-control" id="username" formControlName="username">
+                    <div *ngIf="usernnamevalue?.errors?.['required']" class="text-danger">Name is required</div>
+                    <div *ngIf="usernnamevalue?.errors?.['minlength']" class="text-danger">Name must have minimum length of 3 characters</div>
+                    <div *ngIf="usernnamevalue?.errors?.['invalidname']" class="text-danger">Name cannot start with numbers or symbol.</div>
+                </div>
+                <div class="form-group">
+                    <label for="password">Enter your Password</label>
+                    <input type="password" class="form-control" id="password" formControlName="password">
+                    <div *ngIf="passwordvalue?.errors?.['required']" class="text-danger">Password is required.</div>
+                    <div *ngIf="passwordvalue?.errors?.['pattern']" class="text-danger">Password should have a minimum 8 characters with at least one symbol, one upper-case letter, one lower-case letter, and one number.</div>
+                </div>
+                <div class="form-group">
+                    <label for="confirmpassword">Enter your Confirm Password</label>
+                    <input type="password" class="form-control" id="confirmpassword" formControlName="confirmpassword">
+                    <div *ngIf="confirmpasswordvalue?.errors?.['required']" class="text-danger">Confirm Password is required.</div>
+                    <div *ngIf="Registeringdetails?.errors?.['mustMatch']" class="text-danger">Password and Confirm Password should match.</div>
+                </div>
+                <div class="form-group">
+                    <label for="mobilenumber">Enter your Mobile Number</label>
+                    <input type="text" class="form-control" id="mobilenumber" formControlName="mobilenumber">
+                    <div *ngIf="mobilenumbervalue?.errors?.['required']" class="text-danger">Mobile Number is required.</div>
+                    <div *ngIf="mobilenumbervalue?.errors?.['pattern']" class="text-danger">Invalid Mobile Number.</div>
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="terms" formControlName="terms">
+                    <label class="form-check-label" for="terms">I agree with Terms and Conditions</label>
+                </div>
+                <button color="primary" class="btn btn-primary btn-block" type="submit" [disabled]="!Registeringdetails.valid">Register</button>
+                <p> If already a User <a routerLink="/login">Click here</a></p>
+            </form>
+        </div>
+    </div>
+  </div>
+  
+</div>
